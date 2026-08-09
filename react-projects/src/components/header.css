@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px dotted black;
+}
+.logo-section {
+  img {
+    width: 140px;
+    height: 110px;
+  }
+}
+
+.link-section > ul {
+  display: flex;
+  list-style-type: none;
+
+  /* flex-direction: row;
+    align-items: center; */
+  margin-right: 20px;
+}
+ul > li {
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+}

@@ -1,0 +1,23 @@
+.resturantConteiner-section {
+  border: 1px dotted grey;
+  background-color: azure;
+}
+.cards {
+  width: 250px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.cards:hover {
+  border: 1px dotted rgb(233, 56, 2);
+}
+.cards img {
+  width: 250px;
+  height: 2s50px;
+}
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
